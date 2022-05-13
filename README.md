@@ -254,8 +254,8 @@ GNU Affero General Public License
 
 ## Testing Ghostbusters
 1. Clone this repo.
-2. Install virtualenv using *pip3 install virtualenv*
-3. Create a virtual environment using *virtualenv venv*
-4. Activate virtual environment using *. venv/bin/activate*
-5. Install ghostbuster by going to root of repo. *pip3 install --editable .*
+2. Install virtualenv using `pip3 install virtualenv`
+3. Create a virtual environment using `virtualenv venv`
+4. Activate virtual environment using `. venv/bin/activate`
+5. Install ghostbuster by going to root of repo. `pip3 install --editable .`
 6. Make your changes and run the ghostbuster command.
