@@ -55,12 +55,12 @@ setup(
     """,
     python_requires=">=0.0.1",
     license="Apache Software License 2.0",  # noqa
-    author="shubham_shah",
-    author_email="sshah@assetnote.io",
+    author="yash2999",
+    author_email="bharadwajyash11@gmail.com",
     # Use the URL to the github repo.
-    url="https://github.com/assetnote/ghostbuster",
+    url="https://github.com/yash2999/ghostbuster",
     download_url=(
-        f"https://github.com/assetnote/" f"ghostbuster/archive/{version}.tar.gz"
+        f"https://github.com/yash2999/" f"ghostbuster/archive/{version}.tar.gz"
     ),
     keywords=[
         # Add package keywords here.
