@@ -36,7 +36,7 @@ if os.getenv("buildnum") is not None:
     version = f"{version}.{os.getenv('buildnum')}"
 
 setup(
-    name="ghostbuster",
+    name="ghostbusterV2",
     description="Eliminate dangling elastic IPs by performing analysis on your resources within all your AWS accounts.",
     long_description=long_description,
     packages=find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
@@ -59,9 +59,9 @@ setup(
     author_email="bharadwajyash11@gmail.com",
     # Use the URL to the github repo.
     url="https://github.com/yash2999/ghostbuster",
-    download_url=(
-        f"https://github.com/yash2999/" f"ghostbuster/archive/{version}.tar.gz"
-    ),
+    # download_url=(
+    #     f"https://github.com/yash2999/" f"ghostbuster/archive/{version}.tar.gz"
+    # ),
     keywords=[
         # Add package keywords here.
     ],
